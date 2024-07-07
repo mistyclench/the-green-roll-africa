@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (min-width:700px){
+  body{
+    background-image: url('/hero-bg@2x.png') ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+body{
+  background-image: url('/mobile-bg.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+}
+
+.Hero{
+padding-top: 5%;
+top: 30%;
+}
+
+.green{
+  background-color: #1C9AA9;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

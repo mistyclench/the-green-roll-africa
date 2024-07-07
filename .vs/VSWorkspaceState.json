@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\dashboard",
+    "\\app\\dashboard\\customers",
+    "\\app\\dashboard\\invoices",
+    "\\app\\ui",
+    "\\app\\ui\\dashboard"
+  ],
+  "SelectedNode": "\\app\\ui\\dashboard\\nav-links.tsx",
+  "PreviewInSolutionExplorer": false
+}
