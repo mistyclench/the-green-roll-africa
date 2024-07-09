@@ -142,15 +142,12 @@ export default async function Page() {
                 Our impact
               </h3>
               <p className="m-0 inline-block font-semibold">
-                <span className="block">
-                  <span>
+                <span className="block text-2xl">
                     Thanks to our partners, we can save even more trees, help
                     even more people, and build even more toilets. We are proud
                     to donate 50% of our net profit to maximize our impact.
-                  </span>
                 </span>
-                <span className="block">
-                  <span>
+                <span className="block text-2xl">
                     Show who you are as a business and impress your customers,
                     business associates or staff. As a business customer, it is
                     possible to purchase sustainable toilet rolls with
@@ -158,12 +155,11 @@ export default async function Page() {
                     how much impact they have made via a personal impact meter.
                     It calculates the number of saved trees, built toilets and
                     improved lives!
-                  </span>
                 </span>
-                <span className="block">
-                  <span>{`Hungry for more information about our projects? Take a look at our `}</span>
+                <span className="block text-2xl">
+                 {`Hungry for more information about our projects? Take a look at our `}
                   <span className="text-palevioletred">
-                    <span className="[text-decoration:underline]">
+                    <span className="[text-decoration:underline] text-2xl">
                       impact report
                     </span>
                     .
@@ -171,31 +167,34 @@ export default async function Page() {
                 </span>
               </p>
             </section>
-            <div className="">
-              <p className="m-0 inline-block font-semibold">
-                <span className="block">
+            <div className="py-4">
+            <h3 className="text-3xl font-inherit m-0 font-semibold">
+                Marketing support
+              </h3>
+              <p className="m-0 inline-block font-semibold py-2">
+                <span className="block text-2xl">
                   We support our partners with signs to complete social media
                   expressions and posters. Our goal is to help you promote your
                   business in the most sustainable and social way possible!
                 </span>
-                <span className="block">
+                <span className="block text-2xl">
                   We are happy with your contribution, you have a strong story
                   for your partners and customers, and do something good for a
                   better world. But above all we make an impact together!
                 </span>
               </p>
-              <h3 className="text-3xl font-inherit m-0 font-semibold">
-                Marketing support
-              </h3>
             </div>
-            <div className="">
-              <p className="m-0 inline-block font-semibold">
-                <span className="block">
+            <div className="py-4">
+            <h3 className="text-3xl font-inherit m-0 font-semibold">
+                Let&apos;s rock and roll!
+              </h3>
+              <p className="m-0 inline-block font-semibold py-2">
+                <span className="block text-2xl">
                   At The Green Roll Africa, we&apos;re excited to make a
                   difference with you. Become a partner now and help us in our
                   mission to change the world, one roll at the time!
                 </span>
-                <span className="block">
+                <span className="block text-2xl">
                   Whether you have a small yoga studio or a large multinational,
                   a store or a webshop, making the transition to The Green Roll
                   Africa is easy. We make custom rolls and wrappers for the
@@ -203,15 +202,12 @@ export default async function Page() {
                   around the corner with just as much love: because only
                   together can we make an impact!
                 </span>
-                <span className="block">
+                <span className="block text-2xl">
                   Request the brochure and join The Green Roll Africa!
                 </span>
                 <span className="block">&nbsp;</span>
-                <span className="block">Wipe right, change lives</span>
+                <span className="block text-2xl">Wipe right, change lives</span>
               </p>
-              <h3 className="text-3xl font-inherit m-0 font-semibold">
-                Let&apos;s rock and roll!
-              </h3>
               <div className="text-red-900">
                 <a className="font-semibold text-[inherit] [text-decoration:none]">
                   <p className="m-0">info@thegreenrollafrica.com</p>

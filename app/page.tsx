@@ -5,6 +5,7 @@ import { Button } from './ui/button';
 import TestimonialCard from './ui/testimonial-card';
 import {testimonials} from './utils/testimonials';
 import Footer from './ui/footer';
+import Image from 'next/image';
 
 
 export default function Page() {
@@ -47,38 +48,46 @@ export default function Page() {
       <section className="section-card font-volkhov mt-60 h-[130px] text-black">
         <div className=" green border-[#707070]] min-w-8 mx-auto box-border h-20 w-8/12 rounded-[27px] border-[1px] border-solid">
           <div className="font-large row align-center objects-center flex flex-row content-center justify-center text-center">
-            <div className="bg-darkcyan align-center objects-center h-[130px] content-center justify-center rounded-[17px] text-center" />
+            <div className="bg-darkcyan align-center objects-center h-[70px] content-center justify-center rounded-[17px] text-center" />
             <div className="row m-1 ml-2 flex max-w-xs flex-row">
-              <img
-                className="max-h-[70px] max-w-[70px] rounded-[107px] bg-white p-2"
+              <Image
+                className="rounded-[107px] bg-white p-2"
+                width={70}
+                height={70}
                 alt=""
                 src="/impacticon-lives.svg"
               />
-              <b className="inline-block">for humans</b>
+              <b className="inline-block py-6">for humans</b>
             </div>
             <div className="row m-1 flex max-w-xs flex-row">
-              <img
-                className="max-h-[70px] max-w-[70px] rounded-[107px] bg-white p-2"
+              <Image
+                className="rounded-[107px] bg-white p-2"
+                width={70}
+                height={70}
                 alt=""
                 src="/planet.svg"
               />
-              <b className="inline-block">for the planet</b>
+              <b className="inline-block py-6">for the planet</b>
             </div>
             <div className="row m-1 flex max-w-sm flex-row">
-              <img
-                className="max-h-[70px] max-w-[70px] rounded-[107px] bg-white p-2"
+              <Image
+                className="rounded-[107px] bg-white p-2"
+                width={70}
+                height={70}
                 alt=""
                 src="/butt.svg"
               />
-              <b className="text-black">for your bum</b>
+              <b className="text-black py-6">for your bum</b>
             </div>
             <div className="row m-1 flex max-w-xs flex-row">
-              <img
-                className="max-h-[70px] max-w-[70px] rounded-[107px] bg-white"
+              <Image
+                className="rounded-[107px] bg-white"
+                width={70}
+                height={70}
                 alt=""
                 src="/mask-group-1.svg"
               />
-              <b className="">for your feelings</b>
+              <b className="text-black py-6">for your feelings</b>
             </div>
           </div>
         </div>
@@ -97,8 +106,10 @@ export default function Page() {
         <p className="m-0 inline-block w-[816px] text-2xl text-white font-semibold">
           You don&apos;t have to believe us, but(t) this is what others think of The Green Roll Africa:
         </p>
-        <img
+        <Image
           className="object-cover md:w-12 lg:w-24"
+          width={70}
+          height={70}
           alt=""
           src="/screenshot-20240618-091043removebgpreview@2x.png"
         />
@@ -133,10 +144,12 @@ export default function Page() {
         <div className="font-semibold text-[#FF8400]">
           We make serious impact
         </div>
-        <div className="bg-darkcyan green font-volkhov row mx-auto flex h-[70px] max-w-[500px] flex-row justify-between rounded-[17px] p-2 text-gray-100">
-          <div className="row flex flex-row">
-            <img
-              className="h-[50px] w-[50px] rounded-[107px] bg-white p-2"
+        <div className="bg-darkcyan green font-volkhov row mx-auto flex max-w-[500px] flex-row justify-between rounded-[17px] p-2 text-gray-100">
+          <div className="row flex flex-row h-[50px]">
+            <Image
+              className="rounded-[107px] bg-white p-2"
+              width={50}
+              height={50}
               alt=""
               src="/impacticon-trees.svg"
             />
@@ -147,9 +160,11 @@ export default function Page() {
               </p>
             </div>
           </div>
-          <div className="row flex flex-row">
-            <img
-              className="h-[50px] w-[50px] rounded-[107px] bg-white p-2"
+          <div className="row flex flex-row h-[50px]">
+            <Image
+              className="rounded-[107px] bg-white p-2"
+              width={50}
+              height={50}
               alt=""
               src="/impacticon-toilets.svg"
             />
@@ -160,9 +175,11 @@ export default function Page() {
               </p>
             </div>
           </div>
-          <div className="row flex flex-row">
-            <img
-              className="h-[50px] w-[50px] rounded-[107px] bg-white p-2"
+          <div className="row flex flex-row h-[50px]">
+            <Image
+              className="rounded-[107px] bg-white p-2"
+              width={50}
+              height={50}
               alt=""
               src="/impacticon-lives.svg"
             />
@@ -184,18 +201,18 @@ export default function Page() {
             <Button className="bg-[#FFDC63] hover:bg-yellow-400 focus-visible:outline-yellow-500 active:bg-yellow-600">{`Read more >`}</Button>
           </div>
         </div>
-        <img className="float-right" alt="" src="/decore1.svg" />
-        <img className="" alt="" src="/decore2.svg" />
+        <Image className="float-right" width={100} height={300} alt="" src="/decore1.svg" />
+        <Image className="" width={100} height={300} alt="" src="/decore2.svg" />
       </section>
       <section
         className=" row justified-center m-auto flex h-[136px] flex-row"
         id="brands-logos"
       >
-        <img className="min-w-[150px]" alt="brand-1" src="/G&W@2x.png" />
-        <img className="min-w-[150px]" alt="brand-2" src="/Jumbo@2x.png" />
-        <img className="min-w-[150px]" alt="brand-3" src="/eco-brand@2x.png" />
-        <img className="min-w-[150px]" src="/farm-fresh@2x.png" />
-        <img className="min-w-[150px]" alt="brand-5" src="/sync-ok@2x.png" />
+        <Image className="brands" width={150} height={100} alt="G&W" src="/G&W@2x.png" />
+        <Image className="brands" width={150} height={100} alt="Jumbo" src="/Jumbo@2x.png" />
+        <Image className="brands" width={150} height={100} alt="eco-brand" src="/eco-brand@2x.png" />
+        <Image className="brands" width={150} height={100} alt="farm-fresh"src="/farm-fresh@2x.png" />
+        <Image className="brands" width={150} height={100} alt="sync-ok" src="/sync-ok@2x.png" />
       </section>
       <Footer/>
     </main>
