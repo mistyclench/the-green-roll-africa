@@ -98,7 +98,7 @@ export default function Page() {
           Discover why
         </Button>
       </section>
-      <section className="testimonials py-2 mx-24">
+      {/* <section className="testimonials py-2 mx-24">
         <h2 className="Reviews-header text-3xl text-white font-volkhov m-0 inline-block h-[65px] w-[315px] font-bold capitalize">
           Reviews
         </h2>
@@ -127,7 +127,7 @@ export default function Page() {
 
         </div>
 
-      </section>
+      </section> */}
       <section
         className="text-13xl font-poppins text-center text-black"
         id="mission"
@@ -204,7 +204,7 @@ export default function Page() {
         <Image className="float-right" width={100} height={300} alt="" src="/decore1.svg" />
         <Image className="" width={100} height={300} alt="" src="/decore2.svg" />
       </section>
-      <section
+      {/* <section
         className=" row justified-center m-auto flex h-[136px] flex-row"
         id="brands-logos"
       >
@@ -213,7 +213,7 @@ export default function Page() {
         <Image className="brands" width={150} height={100} alt="eco-brand" src="/eco-brand@2x.png" />
         <Image className="brands" width={150} height={100} alt="farm-fresh"src="/farm-fresh@2x.png" />
         <Image className="brands" width={150} height={100} alt="sync-ok" src="/sync-ok@2x.png" />
-      </section>
+      </section> */}
       <Footer/>
     </main>
   );

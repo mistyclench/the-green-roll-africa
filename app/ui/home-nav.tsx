@@ -16,7 +16,7 @@ const links = [
     },
     {
       name: 'Foundation',
-      href: '/#',
+      href: '/foundation',
     },
     { name: 'Contact Us', 
     href: '/#',
