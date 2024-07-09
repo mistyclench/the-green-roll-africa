@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 import { Form } from 'react-bootstrap';
 import { Button } from './button';
+import Image from 'next/image';
 
 const links = [
   {
@@ -40,15 +41,17 @@ export default function Footer() {
                 </Form>
             </div>
           </div>
-          <img className="-m-8 h-[70px] w-[70px]" alt="" src="/group-77.svg" />
+          <Image className="-m-8 h-[70px]" width={70} height={70} alt="" src="/group-77.svg" />
         </div>
       </section>
 
       <footer className="footer font-poppins text-left text-xl text-white">
         <div className="row flex flex-row justify-between h-[170px]">
-          <img
+          <Image
             className="max-h-[100px]"
             alt=""
+            width={100}
+            height={100}
             src="/the-green-roll-logo@2x.png"
           />
 
@@ -70,7 +73,7 @@ export default function Footer() {
               <b className="block text-2xl">Contact</b>
               <div className="block font-medium">Help/FAQ</div>
               <div className="block font-medium">Press</div>
-              <div className="blockfont-medium">Affilates</div>
+              <div className="block font-medium">Affilates</div>
             </div>
             <div className="w-4/12 text-black">
               <b className="block text-2xl">More</b>
@@ -79,7 +82,7 @@ export default function Footer() {
               <div className="block font-medium">Blog</div>
             </div>
             <div className="text-slate-500">
-              <img className="w-[237px]" alt="" src="/social.svg" />
+              <Image className="" width={237} height={100} alt="" src="/social.svg" />
           </div>
           </div>
         </div>
