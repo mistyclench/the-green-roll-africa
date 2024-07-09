@@ -13,9 +13,9 @@ export default function Logo() {
       <div className=''>
           <Image
           src="/the-green-roll-logo@2x.png"
-          width={50}
-          height={50}
-          className="block items-center p-1"
+          width={70}
+          height={70}
+          className="block items-center p-1 mt-2"
           alt="The Green Roll Logo"
           />
       </div>

@@ -11,7 +11,8 @@ import truncateText from '../app/utils';
 import { articles, singleArticle } from '../app/utils/articles';
 import { Button } from './ui/button';
 import TestimonialCard from './ui/testimonial-card';
-import {testimonials} from './components/testimonials';
+import {testimonials} from './utils/testimonials';
+import Footer from './ui/footer';
 
 
 export default function Page() {
@@ -204,6 +205,7 @@ export default function Page() {
         <img className="min-w-[150px]" src="/farm-fresh@2x.png" />
         <img className="min-w-[150px]" alt="brand-5" src="/sync-ok@2x.png" />
       </section>
+      <Footer/>
     </main>
   );
 }
