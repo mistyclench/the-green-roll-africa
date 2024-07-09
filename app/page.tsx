@@ -1,14 +1,6 @@
 /* eslint-disable react/jsx-key */
 import HomeNav from './ui/home-nav';
 import Butt from './ui/butt-emoticon';
-import { ArrowRightIcon } from '@heroicons/react/24/outline';
-import Link from 'next/link';
-import styles from '@/app/ui/home.module.css';
-import { lusitana } from '@/app/ui/fonts';
-import Image from 'next/image';
-import CallToActionCard from '../app/components/CallToActionCard';
-import truncateText from '../app/utils';
-import { articles, singleArticle } from '../app/utils/articles';
 import { Button } from './ui/button';
 import TestimonialCard from './ui/testimonial-card';
 import {testimonials} from './utils/testimonials';

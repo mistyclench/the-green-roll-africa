@@ -26,9 +26,9 @@ export default function Footer() {
   const pathname = usePathname();
   return (
     <>
-      <section className="newsletter mx-auto py-12">
+      <section className="newsletter mx-auto py-12 md:ml-24 sm:ml-12 xs:ml-12">
         <div className="m-auto flex py-12">
-          <div className="justified-center font-poppins inline-block h-[300px] w-10/12 rounded-b-2xl rounded-tl-3xl rounded-tl-[100px] rounded-tr-2xl bg-purple-300/10 object-center text-center font-semibold text-black py-12">
+          <div className="justified-center font-poppins inline-block h-[300px] xs:w-10/12 lg:w-10/12 md:w-10/12 sm:w-10/12 w-10/12 rounded-b-2xl rounded-tl-3xl rounded-tl-[100px] rounded-tr-2xl bg-purple-300/10 object-center text-center font-semibold text-black py-12">
             <p className="mx-auto w-2/3 p-4 text-2xl">
               Subscribe to get information, latest news and other interesting
               offers about The Greenroll Africa
@@ -45,9 +45,9 @@ export default function Footer() {
       </section>
 
       <footer className="footer font-poppins text-left text-xl text-white">
-        <div className="row flex flex-row justify-between">
+        <div className="row flex flex-row justify-between h-[170px]">
           <img
-            className="max-h-full max-w-full object-cover"
+            className="max-h-[100px]"
             alt=""
             src="/the-green-roll-logo@2x.png"
           />
@@ -83,7 +83,7 @@ export default function Footer() {
           </div>
           </div>
         </div>
-        <div className="text-slategray mb-0 block text-center text-sm font-medium">
+        <div className="text-slate-500 mb-0 block text-center text-sm font-medium">
           All rights reserved@thegreenrollafrica.com
         </div>
       </footer>

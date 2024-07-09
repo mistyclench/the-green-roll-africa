@@ -8,11 +8,11 @@ import clsx from 'clsx';
 const links = [
     {
       name: 'About Us',
-      href: '/#',
+      href: '/',
     },
     {
       name: 'Business',
-      href: '/#',
+      href: '/business',
     },
     {
       name: 'Foundation',
@@ -37,9 +37,9 @@ export default function HomeNav (){
             key={link.name}
             href={link.href}
             className={clsx(
-                'grow gap-2 hover:text-white md:flex-none md:justify-start md:px-3',
+                'grow gap-2 hover:text-orange-300 md:flex-none md:justify-start md:px-3',
                 {
-                  'text-blue-600': pathname === link.href,
+                  'text-orange-600': pathname === link.href,
                 },
                 )}  
           >

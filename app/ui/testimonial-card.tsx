@@ -5,7 +5,7 @@ const TestimonialCard = ({ testimonial, client, image }) => {
       {testimonial}
       <div className='flex flex-row row content-end py-4 align-bottom align-text-bottom text-end'>
         <img className="max-w-[70px] max-h-[70px] rounded-[107px]" src={image} alt={client}/>
-        <i className='text-right'>{client}</i>
+        <i className='text-right py-2'>{client}</i>
       </div>
     </div>
 
