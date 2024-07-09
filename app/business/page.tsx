@@ -5,45 +5,29 @@ export default async function Page() {
   return (
     <main>
         <section className='hero'>
-
             <div className="text-mid font-google-sans text-white ">
               <h2 className="text-14xl font-poppins ml-12 my-2 font-semibold">
                 <p className="ml-12 mb-12 text-3xl">Let’s make impact together!</p>
               </h2>
             </div>
-
-        <div className="row flex flex-row justify-between px-12">
-        <img className="w-4/12 object-cover" alt="" src="/toilet-construction@2x.png"
-        />
-        <img className="w-4/12 object-cover" alt="" src="/why-bamboo@2x.png" />
-      </div>
+            <div className="row flex flex-row justify-between px-12">
+                <img className="w-4/12 object-cover" alt="" src="/toilet-construction@2x.png"/>
+                <img className="w-4/12 object-cover" alt="" src="/why-bamboo@2x.png" />
+            </div>
         </section>
-      <div className="text-18xl font-poppins relative h-[5441px] w-full text-left text-black">
+
+      <div className="text-3xl font-poppins relative h-[5441px] w-full text-left text-black">
         <div className="overflow-y-auto mix-blend-normal">
           <div className="">
-            <section
-              className="text-31xl font-lucida-sans-typewriter text-center text-white"
-              id="call-to-action"
-            >
-              <div className="" id="card-1">
+            <section className="text-31xl font-lucida-sans-typewriter text-center text-white">
+              <div className="bg-yellow-200 w-4/12 rounded-[27px]" id="card-1">
                 <div className="" id="card-1">
                   <img className="" alt="" src="/path-7.svg" />
                 </div>
-                <b className="inline-block h-[140px] w-[414px] [text-shadow:0px_3px_6px_rgba(0,_0,_0,_0.16)]">
+                <b className="inline-block [text-shadow:0px_3px_6px_rgba(0,_0,_0,_0.16)] my-4">
                   Request our brochure!
                 </b>
-                <Button
-                  className="absolute w-[calc(100%_-_103px)]"
-                  disableElevation={true}
-                  color="warning"
-                  size="medium"
-                  variant="contained"
-                  sx={{
-                    borderRadius: '0px 0px 0px 0px',
-                    width: 337,
-                    height: 51,
-                  }}
-                >
+                <Button className="bg-[#F9A75D] rounded-[107px] m-6">
                   Request Brochure
                 </Button>
               </div>
