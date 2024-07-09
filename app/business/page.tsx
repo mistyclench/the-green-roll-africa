@@ -8,7 +8,7 @@ export default async function Page() {
     <main>
       <section className="hero">
         <div className="text-mid font-google-sans text-white ">
-          <h2 className="text-14xl font-poppins my-2 ml-12 font-semibold">
+          <h2 className="text-3xl font-poppins my-2 ml-12 font-semibold">
             <p className="mb-12 ml-12 text-3xl">
               Let&apos;s make impact together!
             </p>
@@ -35,7 +35,7 @@ export default async function Page() {
       <div className="font-poppins relative text-left text-3xl text-black">
         <div className="overflow-y-auto mix-blend-normal">
           <div className="">
-            <section className="text-31xl font-lucida-sans-typewriter row flex flex-row text-center text-white">
+            <section className="text-3xl font-lucida-sans-typewriter row flex flex-row text-center text-white">
               <div
                 className="-p-1 z-0 m-1 w-4/12 rounded-[27px] bg-yellow-200"
                 id="card-1"
@@ -104,11 +104,11 @@ export default async function Page() {
               </div>
             </section>
             <section className='py-4'>
-              <div className="text-31xl">
+              <div className="text-3xl">
                 <h3 className="font-inherit m-0 font-semibold text-inherit">
                   The Green Roll Africa, who?
                 </h3>
-                <div className="text-18xl py-4">
+                <div className="text-2xl py-4">
                   <p className="m-0 font-semibold">
                     Sustainable entrepreneurship is increasingly becoming the
                     norm. An easy step to start with is responsible sourcing. By
@@ -128,7 +128,7 @@ export default async function Page() {
             <h3 className="font-inherit m-0 font-semibold text-inherit">
                 Our products
             </h3>
-            <div className="text-18xl py-4">
+            <div className="text-2xl py-4">
                 <p className="m-0 font-semibold">
                 We are not just a toilet paper company. The Green Roll Africa
                 produces 100% environmentally-friendly and sustainable toilet
@@ -138,7 +138,7 @@ export default async function Page() {
             </div>
             </section>
             <section className="py-2">
-            <h3 className="text-31xl font-inherit font-semibold py-2">
+            <h3 className="text-3xl font-inherit font-semibold py-2">
                 Our impact
               </h3>
               <p className="m-0 inline-block font-semibold">
@@ -184,7 +184,7 @@ export default async function Page() {
                   better world. But above all we make an impact together!
                 </span>
               </p>
-              <h3 className="text-31xl font-inherit m-0 font-semibold">
+              <h3 className="text-3xl font-inherit m-0 font-semibold">
                 Marketing support
               </h3>
             </div>
@@ -209,7 +209,7 @@ export default async function Page() {
                 <span className="block">&nbsp;</span>
                 <span className="block">Wipe right, change lives</span>
               </p>
-              <h3 className="text-31xl font-inherit m-0 font-semibold">
+              <h3 className="text-3xl font-inherit m-0 font-semibold">
                 Let&apos;s rock and roll!
               </h3>
               <div className="text-red-900">
