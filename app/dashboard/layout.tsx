@@ -1,4 +1,4 @@
-import HomeNav from '@/app/ui/dashboard/sidenav';
+import HomeNav from '@/app/ui/dashboard/nav-links';
  
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
