@@ -1,6 +1,11 @@
 import Image from "next/image";
 
-const TestimonialCard = ( { testimonial }: { testimonial: string }, client: string, image:string ) => {
+interface Props {
+  testimonial: string
+  client: string
+  image: any
+}
+const TestimonialCard: React.FC<Props> = ({testimonial, client, image}) => {
   return (
           <div className="shadow-md shadow-slate-50 min-w-[350px] bg-white rounded-[27px] p-[10px] m-1 overflow-y-auto">
       {testimonial}

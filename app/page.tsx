@@ -119,8 +119,8 @@ export default function Page() {
           return (
         <TestimonialCard
         testimonial={testimonial.testimonial}
-        client={testimonial.client}
         image={testimonial.image}
+        client={testimonial.client}
         />
           );
         })}
