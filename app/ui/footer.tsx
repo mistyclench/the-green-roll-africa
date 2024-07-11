@@ -1,6 +1,6 @@
 'use client';
 import Logo from './logo';
-import { lusitana } from '@/app/ui/fonts';
+import { lato } from '@/app/ui/fonts';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';

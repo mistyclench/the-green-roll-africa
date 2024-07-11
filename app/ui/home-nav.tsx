@@ -1,6 +1,6 @@
 'use client'
 import Logo from './logo';
-import { lusitana } from '@/app/ui/fonts';
+import { lato } from '@/app/ui/fonts';
 import Link from 'next/link';
 import {usePathname} from 'next/navigation';
 import clsx from 'clsx';
@@ -26,7 +26,7 @@ export default function HomeNav (){
     const pathname = usePathname();
     return (
         <div
-        className={`${lusitana.className} flex flex-grow flex-row items-center leading-none text-white`}
+        className={`${lato.className} flex flex-grow flex-row items-center leading-none text-white`}
         >
         <Logo />
         <div className='flex flex-row ms-auto items-start'>

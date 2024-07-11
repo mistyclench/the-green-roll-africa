@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default async function Page() {
   return (
     <main className="flex min-h-screen flex-col mx-[40px]">
-      <div className="font-poppins relative text-3xl text-black">
+      <div className="relative text-3xl text-black">
         <div className="">
           <section className="py-4 text-3xl">
             <h3 className="font-inherit font-semibold text-inherit">
@@ -160,7 +160,7 @@ export default async function Page() {
             </h3>
           </section>
           <Image
-            className="mx-auto object-cover"
+            className="mx-auto object-cover py-4"
             width={1000}
             height={587}
             alt=""
