@@ -46,10 +46,10 @@ export default function Page() {
       </section>
 
       <section className="section-card font-volkhov mt-60 h-[130px] text-black">
-        <div className=" green border-[#707070]] min-w-8 mx-auto box-border h-20 w-8/12 rounded-[27px] border-[1px] border-solid">
-          <div className="font-large row align-center objects-center flex flex-row content-center justify-center text-center">
-            <div className="bg-darkcyan align-center objects-center h-[70px] content-center justify-center rounded-[17px] text-center" />
-            <div className="row m-1 ml-2 flex max-w-xs flex-row">
+        <div className=" green border-[#707070] mx-auto box-border h-20 w-8/12 rounded-[27px] border-[1px] border-solid">
+          <div className="font-large row flex flex-row content-center justify-center text-center">
+            <div className="bg-darkcyan align-center objects-center h-20 content-center justify-center rounded-[17px] text-center" />
+            <div className="row m-1 ml-2 flex max-w-sm flex-row">
               <Image
                 className="rounded-[107px] bg-white p-2"
                 width={70}
@@ -59,7 +59,7 @@ export default function Page() {
               />
               <b className="inline-block py-6">for humans</b>
             </div>
-            <div className="row m-1 flex max-w-xs flex-row">
+            <div className="row m-1 flex max-w-sm flex-row">
               <Image
                 className="rounded-[107px] bg-white p-2"
                 width={70}
@@ -135,7 +135,7 @@ export default function Page() {
         <div className="text-2xl font-semibold text-[#FF5800]">
           Our mission: Let&apos;s make the world less shitty
         </div>
-        <div className="mx-12 my-2 inline-block w-auto text-left font-semibold">
+        <div className="mx-12 my-2 inline-block w-auto text-left text-2xl font-semibold">
           We are convinced that you can do a lot more with toilet paper than
           wiping your bum. All our products are made of
           environmentally-friendly, raw materials, and we donate 50% of our net

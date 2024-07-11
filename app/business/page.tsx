@@ -5,7 +5,7 @@ import Footer from '../ui/footer';
 
 export default async function Page() {
   return (
-    <main>
+    <main className="flex min-h-screen flex-col mx-[40px]">
       <section className="hero">
         <div className="text-mid font-google-sans text-white ">
           <h2 className="text-3xl font-poppins my-2 ml-12 font-semibold">
