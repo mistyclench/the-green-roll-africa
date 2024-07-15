@@ -76,15 +76,29 @@ export default async function Page() {
               </div>
             </div>
           </div>
+          <div>
+            <label
+              className="mb-3 mt-5 block text-xs font-medium text-gray-900"
+              htmlFor="comment"
+            >
+              Message
+            </label>
+            <div className="relative">
+              <textarea
+                className="peer block w-full rounded-md border border-gray-200 py-[9px] pl-10 text-sm outline-2 placeholder:text-gray-500"
+                id="comment"
+                name="comment"
+                placeholder="Message"
+                required
+              />
+            </div>
+          </div>
+
         </div>
         <div className="flex h-8 items-end space-x-1">
           {/* Add form errors here */}
         </div>
         <SendButton />
-        <div className="mx-auto flex h-8 items-end justify-center space-x-1">
-          Don&apos;t have an account?{' '}
-          <Link href="/business/signup">&nbsp; Signup</Link>
-        </div>
       </div>
     </form>
   );
@@ -92,7 +106,7 @@ export default async function Page() {
 
 function SendButton() {
   return (
-    <Button className="mx-auto mt-4 w-3/4 bg-green-800">
+    <Button className="mx-auto mt-2 w-2/4 bg-green-800">
       Send <ArrowRightIcon className=" h-5 w-5 text-gray-50" />
     </Button>
   );
