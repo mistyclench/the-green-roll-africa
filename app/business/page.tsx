@@ -1,11 +1,10 @@
-import { Form, Button as BsButton } from 'react-bootstrap';
 import { Button } from '../ui/button';
 import Image from 'next/image';
 import Footer from '../ui/footer';
 
 export default async function Page() {
   return (
-    <main className="flex min-h-screen flex-col mx-[40px]">
+    <main className="flex min-h-screen flex-col mx-[40px] antialiased">
       <section className="hero">
         <div className="text-mid font-google-sans text-white ">
           <h2 className="text-3xl font-poppins my-2 ml-12 font-semibold">
@@ -37,14 +36,14 @@ export default async function Page() {
           <div className="">
             <section className="text-3xl font-lucida-sans-typewriter row flex flex-row text-center text-white">
               <div
-                className="-p-1 z-0 m-1 w-4/12 rounded-[27px] bg-yellow-200"
+                className="-p-1 z-0 m-1 w-4/12 rounded-[27px] h-48 bg-yellow-200"
                 id="card-1"
               >
-                <div className="" id="card-1">
+                <div className="w-4/12 overflow-x-clip" id="card-1">
                   <Image
-                    className="absolute -z-50"
+                    className="absolute -z-50 max-w-full overflow-x-clip card"
                     alt=""
-                    width={383}
+                    width={372}
                     height={300}
                     src="/path-7.svg"
                   />
@@ -53,19 +52,19 @@ export default async function Page() {
                   <b className="my-4 inline-block [text-shadow:0px_3px_6px_rgba(0,_0,_0,_0.16)]">
                     Request our brochure!
                   </b>
-                  <Button className="m-6 w-8/12 rounded-[107px] bg-[#F9A75D] text-base">
+                  <Button className="mx-auto w-8/12 rounded-[107px] bg-[#F9A75D] text-base justify-center bottom-0">
                     Request Brochure
                   </Button>
                 </div>
               </div>
               <div
-                className="-p-1 z-0 m-1 w-4/12 rounded-[27px] bg-yellow-200"
+                className="-p-1 z-0 m-1 w-4/12 rounded-[27px] bg-yellow-200 "
                 id="card-2"
               >
-                <div className="" id="card-2">
+                <div className="w-4/12 overflow-x-clip" id="card-2">
                   <Image
-                    className="absolute -z-50 rounded-t-[27px]"
-                    width={383}
+                    className="absolute -z-50 rounded-t-[27px] max-w-4/12 card"
+                    width={372}
                     height={300}
                     alt=""
                     src="/path-8.svg"
@@ -75,7 +74,7 @@ export default async function Page() {
                   <b className="my-4 inline-block">
                     Create positive impact with your organisation!
                   </b>
-                  <Button className="m-6 m-auto w-8/12 rounded-[107px] bg-[#F9A75D] text-base">
+                  <Button className="m-6 m-auto w-8/12 rounded-[107px] bg-[#F9A75D] text-base justify-center align-middle">
                     Create B2B Account
                   </Button>
                 </div>
@@ -84,10 +83,10 @@ export default async function Page() {
                 className="-p-1 z-0 m-1 w-4/12 rounded-[27px] bg-yellow-200"
                 id="card-3"
               >
-                <div className="" id="card-3">
+                <div className="w-4/12" id="card-3">
                   <Image
-                    className="absolute -z-50 rounded-t-[27px]"
-                    width={383}
+                    className="absolute -z-50 rounded-t-[27px] overflow-x-hidden card"
+                    width={372}
                     height={300}
                     alt=""
                     src="/path-9.svg"
@@ -97,7 +96,7 @@ export default async function Page() {
                   <b className="my-4 inline-block [text-shadow:0px_3px_6px_rgba(0,_0,_0,_0.16)]">
                     Already a partner?
                   </b>
-                  <Button className="m-6 w-8/12 rounded-[107px] bg-[#F9A75D] text-base">
+                  <Button className="m-6 m-auto w-8/12 rounded-[107px] bg-[#F9A75D] text-base justify-center align-middle">
                     Signin
                   </Button>
                 </div>
