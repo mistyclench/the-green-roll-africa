@@ -1,4 +1,4 @@
-import { lusitana } from '@/app/ui/fonts';
+import { lato } from '@/app/ui/fonts';
  
  export default async function Page() {
 //   const revenue = await fetchRevenue();
@@ -12,7 +12,7 @@ import { lusitana } from '@/app/ui/fonts';
 
   return (
     <main>
-      <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
+      <h1 className={`${lato.className} mb-4 text-xl md:text-2xl`}>
         Dashboard
       </h1>
       {/* <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
